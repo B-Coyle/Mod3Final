@@ -1,5 +1,6 @@
 body {
-    background: url('../../images/flag.jpeg')
+    background: url('../../images/flag.jpeg');
+    background-repeat: no-repeat;
 }
 
 .app-title{
