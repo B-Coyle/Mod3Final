@@ -3,9 +3,9 @@ export const isLoading = (bool) => ({
     bool
 });
 
-export const hasErrored = (error) => ({
+export const hasErrored = (message) => ({
     type: 'HAS_ERRORED',
-    error
+    message
 });
 
 export const getPresidents = (presidents) => ({
