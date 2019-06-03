@@ -22,4 +22,14 @@ describe('actions', () => {
 
         })
     })
+    describe('getPresidents', () => {
+        it('should return an action object with a type of GET_PRESIDENTS', () => {
+            const expected = {
+                type: 'GET_PRESIDENTS',
+                presidents: [{president: 'Washington'}]
+            }
+            const result = getPresidents([{president: 'Washington'}])
+            expect(result).toEqual(expected);
+        })
+    })
 })
