@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './containers/App/index';
+import thunk from 'redux-thunk';
 import { rootReducer } from './Reducers'
 import {Provider} from 'react-redux';
-import thunk from 'redux-thunk';
 import {createStore, applyMiddleware} from 'redux';
 import {composeWithDevTools} from 'redux-devtools-extension';
 
