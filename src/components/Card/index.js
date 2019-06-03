@@ -4,7 +4,7 @@ export const Card = ({ president }) => {
   return (
   <article className="card">
     <p>{president.number}</p>
-    <p>{president}</p>
+    <p>{president.president}</p>
     <p>{president.birth_year}</p>
     <p>{president.death_year}</p>
     <p>{president.took_office}</p>
