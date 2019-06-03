@@ -20,6 +20,15 @@ export class App extends Component {
         <h1 className="app-title">Presidents</h1>
         {hasErrored && <h2>Error loading information about presidents</h2>}
         {isLoading && <h2>Please wait- information loading ...</h2>}
+        <div className="filter">
+          <select name="affiliation">
+            <option value="Republican">Republican</option>
+            <option value="Democrat">Democrat</option>
+            <option value="Not Applicable">N/A</option>
+            <option value="Federalist">Federalist</option>
+            <option value="Whig">Whig</option>
+          </select>
+        </div>
         <CardContainer presidents={presidents} />
       </main>
     );
