@@ -10,7 +10,6 @@ export default class App extends Component {
     }
 
     componentDidMount(){
-
     }
 
     render(){
@@ -19,4 +18,3 @@ export default class App extends Component {
         )
     }
 }
-
