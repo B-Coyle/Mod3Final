@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import 
+import './App.css';
 
-class App extends Component {
+export default class App extends Component {
     constructor(){
         super()
         this.state={
@@ -15,9 +15,8 @@ class App extends Component {
 
     render(){
         return(
-            <h1>Test</h1>
+            <h1>Presidents and Assholes</h1>
         )
     }
 }
 
-export default App
