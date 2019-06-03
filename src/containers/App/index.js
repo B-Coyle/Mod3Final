@@ -27,6 +27,7 @@ export class App extends Component {
             <option value="Not Applicable">N/A</option>
             <option value="Federalist">Federalist</option>
             <option value="Whig">Whig</option>
+            <option value="Democrat-Republican">Democrat-Republican</option>
           </select>
         </div>
         <CardContainer presidents={presidents} />
