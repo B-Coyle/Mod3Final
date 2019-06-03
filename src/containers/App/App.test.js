@@ -11,7 +11,7 @@ describe('App', () => {
         it('should return a props object with isLoading, hasErrored, and an array of presidents', () => {
             const mockState= {
                 ...mockProps,
-                assholes: []
+                presidents: []
             }
             const expected = mockProps
             const mappedProps = mapStateToProps(mockState)
