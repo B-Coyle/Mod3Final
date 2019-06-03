@@ -17,7 +17,7 @@ export class App extends Component {
     const { hasErrored, isLoading, presidents } = this.props;
     return (
       <main>
-        <h1>Presidents and Assholes</h1>
+        <h1 className="app-title">Presidents and Assholes</h1>
         {hasErrored && <h2>Error loading information about presidents</h2>}
         {isLoading && <h2>Please wait- information loading ...</h2>}
         <CardContainer presidents={presidents} />

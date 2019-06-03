@@ -1,0 +1,8 @@
+body {
+    background: url('../../images/flag.jpeg')
+}
+
+.app-title{
+    border-bottom: solid red 3px;
+    text-align: center;
+}
